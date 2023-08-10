@@ -5,7 +5,7 @@ ______________________
 ______________________
 OnePlus Nord N100
 
-OnePlus Nord N10 5G (billie) specs
+OnePlus Nord N100 (billie2) specs
 ==========================================
 
 
