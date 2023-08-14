@@ -21,6 +21,28 @@ OnePlus Nord N100 (billie2) specs
 | Display                 | 720 x 1600 pixels, 20:9 ratio (~269 ppi density)                                                                            |
 | Camera (Back)(Main)     | 13 MP, f/2.2, (wide), PDAF 2 MP, f/2.4, (macro) 2 MP, f/2.4, (depth)                                                                                |
 | Camera (Front)          | 8 MP, f/2.0
+| Kernel Version          | 4.19.95 "People's Front"
+| Platform          | bengal
+
+## Unlock bootloader
+- Boot the device, do not connect to wifi or create any account we don not need that. Setup the device offline
+- Once you boot to the menu go to Seyttings -> About phone and tap build number until you see " You are now a Developer"
+<p float="center">
+  <img src="./refs/Screenshot_20201031-114627.jpg" width="200" />
+  <img src="./refs/Screenshot_20201031-114652.jpg" width="200" /> 
+</p>
+
+</div>
+- Now Connect to wifi network
+- Go back to Settings -> System -> Developer Options and enable OEM Unlocking.
+- Power off the device VOLUME UP + POWER
+- Power on Holding VOLUME UP + POWER to enter FASTBOOT MODE
+- Now run the following command:
+
+` fastboot flashing unlock `
+
+- Confirm on the device using the VOLUME keys and the power button to unlock the bootloader.
+
 # What works so far?
 
 ### Progress
