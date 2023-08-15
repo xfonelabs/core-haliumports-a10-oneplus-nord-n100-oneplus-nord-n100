@@ -24,6 +24,13 @@ OnePlus Nord N100 (billie2) specs
 | Kernel Version          | 4.19.95 "People's Front"
 | Platform          | bengal
 
+## Firmrware
+- This builds are based on OxygenOS 10.5.2
+
+| Region                   | firmware                                                                                                                     |
+| -----------------------:|:------------------------------------------------------------------------------------------------------------------------------ |
+|EU | BE83BA https://onepluscommunityserver.com/list/Unbrick_Tools/OnePlus_Nord_N100/EU_BE83BA/Q/OnePlus_Nord_N100_EU_OxygenOS_10.5.2.zip
+|Global | BE81AA https://onepluscommunityserver.com/list/Unbrick_Tools/OnePlus_Nord_N100/Global_BE81AA/Q/OnePlus_Nord_N100_Global_OxygenOS_10.5.3.zip
 ## Unlock bootloader
 - Boot the device, do not connect to wifi or create any account we don not need that. Setup the device offline
 - Once you boot to the menu go to Seyttings -> About phone and tap build number until you see " You are now a Developer"
