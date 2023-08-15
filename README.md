@@ -40,7 +40,6 @@ OnePlus Nord N100 (billie2) specs
 |US Metro by T-Mobile| BE82CF https://onepluscommunityserver.com/list/Unbrick_Tools/OnePlus_Nord_N100/Metro_by_T-Mobile_BE82CF/Q/OnePlus_Nord_N100_Metro-by-T-Mobile_OxygenOS_10.5.8.zip
 |US T-Mobile | BE82CB https://onepluscommunityserver.com/list/Unbrick_Tools/OnePlus_Nord_N100/T-Mobile_BE82CB/Q/OnePlus_Nord_N100_T-Mobile_OxygenOS_10.5.8.zip
 
-- Devices qith firmware 
 ## Unlock bootloader
 - Boot the device, do not connect to wifi or create any account we don not need that. Setup the device offline
 - Once you boot to the menu go to Seyttings -> About phone and tap build number until you see " You are now a Developer"
