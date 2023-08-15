@@ -24,7 +24,7 @@ OnePlus Nord N100 (billie2) specs
 | Kernel Version          | 4.19.95 "People's Front"
 | Platform          | bengal
 
-## Firmrware
+## Firmware
 - This builds are based on OxygenOS 10.5.2
 
 | Region                   | firmware                                                                                                                     |
