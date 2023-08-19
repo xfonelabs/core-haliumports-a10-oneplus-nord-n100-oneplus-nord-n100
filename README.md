@@ -42,7 +42,7 @@ OnePlus Nord N100 (billie2) specs
 
 ## Unlock bootloader
 - Boot the device, do not connect to wifi or create any account we don not need that. Setup the device offline
-- Once you boot to the menu go to Seyttings -> About phone and tap build number until you see " You are now a Developer"
+- Once you boot to the menu go to Settings -> About phone and tap build number until you see " You are now a Developer"
 <p float="center">
   <img src="./refs/Screenshot_20201031-114627.jpg" width="200" />
   <img src="./refs/Screenshot_20201031-114652.jpg" width="200" /> 
@@ -62,9 +62,9 @@ OnePlus Nord N100 (billie2) specs
 # What works so far?
 
 ### Progress
-![0%](https://progress-bar.dev/0) Ubuntu 20.04 Focal
+![3%](https://progress-bar.dev/3) Ubuntu 20.04 Focal
 
-- [ ] Recovery
+- [X] Recovery
 - [ ] Boot
 - [ ] Bluetooth
 - [ ] Camera Fotos and Video Recording
