@@ -7,7 +7,7 @@ billie:
     - OnePlus Nord N100
   PrettyName: OnePlus Nord N100
   DeviceType: phone
-  GridUnit: 21
+  GridUnit: 16
   SupportedOrientations:
     - Portrait
     - Landscape
