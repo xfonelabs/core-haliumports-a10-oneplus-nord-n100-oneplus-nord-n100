@@ -62,10 +62,10 @@ OnePlus Nord N100 (billie2) specs
 # What works so far?
 
 ### Progress
-![3%](https://progress-bar.dev/3) Ubuntu 20.04 Focal
+![6%](https://progress-bar.dev/6) Ubuntu 20.04 Focal
 
 - [X] Recovery
-- [ ] Boot
+- [X] Boot
 - [ ] Bluetooth
 - [ ] Camera Fotos and Video Recording
 - [ ] Docker
