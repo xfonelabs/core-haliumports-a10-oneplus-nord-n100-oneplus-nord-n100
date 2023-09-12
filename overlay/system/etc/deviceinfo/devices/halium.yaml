@@ -26,3 +26,9 @@ billie2:
     - false
   MirAndroidPlatformClientEglFlush:
     - "!/usr/bin/unity8,!/usr/bin/lomiri,all"
+    HaliumQsgUseShaders:
+    - true
+  HaliumQsgAnimationDriver:
+    - true
+  XwaylandShm:
+    - true
