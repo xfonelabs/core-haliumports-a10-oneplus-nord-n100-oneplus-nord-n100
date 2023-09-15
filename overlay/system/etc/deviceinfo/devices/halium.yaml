@@ -25,8 +25,8 @@ billie2:
   MirAndroidPlatformServerEglSync:
     - false
   MirAndroidPlatformClientEglFlush:
-    - "!/usr/bin/unity8,!/usr/bin/lomiri,all"
-    HaliumQsgUseShaders:
+    - "all"
+  HaliumQsgUseShaders:
     - true
   HaliumQsgAnimationDriver:
     - true
