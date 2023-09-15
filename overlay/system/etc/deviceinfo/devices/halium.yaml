@@ -26,9 +26,5 @@ billie2:
     - false
   MirAndroidPlatformClientEglFlush:
     - "all"
-  HaliumQsgUseShaders:
-    - true
-  HaliumQsgAnimationDriver:
-    - true
   XwaylandShm:
     - true
