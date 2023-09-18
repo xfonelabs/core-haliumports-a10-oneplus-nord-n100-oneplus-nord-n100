@@ -62,27 +62,26 @@ OnePlus Nord N100 (billie2) specs
 # What works so far?
 
 ### Progress
-![6%](https://progress-bar.dev/6) Ubuntu 20.04 Focal
+![46%](https://progress-bar.dev/46) Ubuntu 20.04 Focal
 
 - [X] Recovery
 - [X] Boot
-- [ ] Bluetooth
+- [X] Bluetooth
 - [ ] Camera Fotos and Video Recording
 - [ ] Docker
-- [ ] GPS
-- [ ] NFC
-- [ ] Audio works
-- [ ] Bluetooth Audio
+- [X] GPS
+- [X] Audio works
+- [X] Bluetooth Audio
 - [ ] Waydroid
-- [ ] MTP
-- [ ] ADB
-- [ ] SSH
-- [ ] Online charge
-- [ ] Offline Charge
-- [ ] Wifi
+- [X] MTP
+- [X] ADB
+- [X] SSH
+- [X] Online charge
+- [X] Offline Charge
+- [X] Wifi
 - [ ] Calls
 - [ ] Mobile Data 2G/3G/4G (LTE)
-- [ ] Ofono
+- [X] Ofono
 - [ ] SDCard
 - [ ] Wireless display ( reminder that wireless display works on 2.4ghz networks )
 - [ ] Fingerprint Reader
@@ -98,9 +97,9 @@ OnePlus Nord N100 (billie2) specs
 - [ ] Lightsensor
 - [ ] Proximity sensor
 - [ ] Automatic brightness
-- [ ] Torch
-- [ ] Hotspot
-- [ ] Airplane Mode
+- [X] Torch
+- [X] Hotspot
+- [X] Airplane Mode
 ### Extras
 - [ ] Waydroid auto start if installed
 - [ ] Waydroid Resolution fix cut buttons on height (After first run)
