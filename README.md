@@ -62,23 +62,23 @@ OnePlus Nord N100 (billie2) specs
 # What works so far?
 
 ### Progress
-![71%](https://progress-bar.dev/71) Ubuntu 20.04 Focal
+![93%](https://progress-bar.dev/93) Ubuntu 20.04 Focal
 
 - [X] Recovery
 - [X] Boot
 - [X] Bluetooth
-- [ ] Camera Fotos and Video Recording
+- [X] Camera Fotos and Video Recording
 - [ ] Docker
 - [X] GPS
 - [X] Audio works
 - [X] Bluetooth Audio
-- [ ] Waydroid
+- [X] Waydroid
 - [X] MTP
 - [X] ADB
 - [X] SSH
 - [X] Online charge
 - [X] Offline Charge
-- [X] Wifi
+- [ ] Wifi Random drops
 - [X] Calls
 - [X] Mobile Data 2G/3G/4G (LTE)
 - [X] Ofono
@@ -86,17 +86,17 @@ OnePlus Nord N100 (billie2) specs
 - [ ] Wireless display ( reminder that wireless display works on 2.4ghz networks )
 - [X] Fingerprint Reader
 - [X] OTG Works
-- [ ] Camera Flash
+- [X] Camera Flash
 - [X] Manual Brightness Works
-- [ ] Switching between cameras
-- [ ] Hardware video playback
+- [X] Switching between cameras
+- [X] Hardware video playback
 - [X] Rotation
 - [X] Proximity sensor
-- [ ] Virtualization
+- [X] Virtualization
 - [X] GPU
-- [ ] Lightsensor
-- [ ] Proximity sensor
-- [ ] Automatic brightness
+- [X] Lightsensor
+- [X] Proximity sensor
+- [X] Automatic brightness
 - [X] Torch
 - [X] Hotspot
 - [X] Airplane Mode
