@@ -21,8 +21,6 @@ if ! systemctl --global -q is-enabled check-audio-mic.service; then
   systemctl --global start check-audio-mic.service
   systemctl --global enable waydroid-autostart.service
   systemctl --user start waydroid-autostart.service
-  systemctl --global enable waydroid-fix.service
-  systemctl --user start waydroid-fix.service
 
   # remount read only!
   mount -o ro,remount /
