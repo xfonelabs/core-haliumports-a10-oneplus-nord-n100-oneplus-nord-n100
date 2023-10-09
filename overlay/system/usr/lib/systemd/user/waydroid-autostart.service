@@ -1,0 +1,11 @@
+[Unit]
+Description=Waydroid auto start for installed system
+After=waydroid-container.service
+
+[Service]
+ExecStart=/usr/bin/waydroid show-full-ui
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=default.target
