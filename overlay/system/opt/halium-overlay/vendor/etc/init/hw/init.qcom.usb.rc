@@ -11,7 +11,6 @@ on boot
     setprop ubuntu.widi.supported 1
     # load wlan module
     insmod /system/vendor/lib/modules/qca_cld3_wlan.ko
-    chown root video /sys/class/leds/torch_0/brightness
 
 service time_daemon vendor.time_daemon_HYBRIS_DISABLED
     disabled
