@@ -19,12 +19,22 @@ on fs
 on post-fs-data
     insmod /system/vendor/lib/modules/qca_cld3_wlan.ko
 
-service vendor.imsqmidaemon vendor.imsqmidaemon_HYBRIS_DISABLED
+service vendor.imsqmidaemon /vendor/bin/imsqmidaemon_HYBRIS_DISABLED
+    disabled
+    oneshot
+    override
+
+service vendor.imsdatadaemon /vendor/bin/imsdatadaemon_HYBRIS_DISABLED
     disabled
     oneshot
     override
 
 service vendor.imsrcsservice vendor.imsrcsservice_HYBRIS_DISABLED
+    disabled
+    oneshot
+    override
+
+service vendor.imsrcsservice /vendor/bin/imsrcsd_HYBRIS_DISABLED
     disabled
     oneshot
     override
