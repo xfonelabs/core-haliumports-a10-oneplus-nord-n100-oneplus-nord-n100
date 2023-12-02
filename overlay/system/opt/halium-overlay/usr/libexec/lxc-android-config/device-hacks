@@ -11,6 +11,15 @@ done
 if [ -f /vendor/firmware/ipa_fws.mdt ]; then
     echo 1 > /dev/ipa
 fi
+# fix docker start at boot, docker require system to be mounted as rw to work
+# also we need to add the missing docker group ans add the user to the group
+mount -o remount,rw /
+groupadd docker
+usermod -aG docker $USER
+systemctl enable docker.socket
+systemctl enable docker.service
+systemctl start docker.socket
+systemctl start docker.service
 # Enable fix audio mic service, if disabled, which should
 # only happen on first boot or maybe after an OTA-update
 if ! systemctl --global -q is-enabled check-audio-mic.service; then
@@ -23,7 +32,7 @@ if ! systemctl --global -q is-enabled check-audio-mic.service; then
   systemctl --user start waydroid-autostart.service
 
   # remount read only!
-  mount -o ro,remount /
+#  mount -o ro,remount /
 else
   echo "device-hacks script: check-audio-mic.service already enabled";
 fi
