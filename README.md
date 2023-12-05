@@ -68,7 +68,6 @@ OnePlus Nord N100 (billie2) specs
 - [X] Boot
 - [X] Bluetooth
 - [X] Camera Fotos and Video Recording
-- [X] Docker
 - [X] GPS
 - [X] Audio works
 - [X] Bluetooth Audio
@@ -101,6 +100,9 @@ OnePlus Nord N100 (billie2) specs
 - [X] Hotspot
 - [X] Airplane Mode
 ### Extras
+- [X] Docker
+- [X] Widevine
+- [-] Basic Snap support
 - [X] Waydroid auto start if installed
 
 ### For internal use these link should not be shared public
