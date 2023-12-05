@@ -102,7 +102,7 @@ OnePlus Nord N100 (billie2) specs
 ### Extras
 - [X] Docker
 - [X] Widevine
-- [-] Basic Snap support
+- [x] Basic Snap support
 - [X] Waydroid auto start if installed
 
 ### For internal use these link should not be shared public
