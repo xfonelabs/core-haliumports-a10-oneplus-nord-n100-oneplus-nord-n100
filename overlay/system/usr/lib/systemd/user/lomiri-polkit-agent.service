@@ -1,0 +1,11 @@
+[Unit]
+Description=Lomiri Polkit agent
+After=lomiri-full-greeter.service lomiri-full-shell.service lomiri-greeter.service lomiri-shell.service
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/lib/aarch64-linux-gnu/lomiri-polkit-agent/policykit-agent
+
+[Install]
+WantedBy=lomiri-full-greeter.service lomiri-full-shell.service lomiri-greeter.service lomiri-shell.service
