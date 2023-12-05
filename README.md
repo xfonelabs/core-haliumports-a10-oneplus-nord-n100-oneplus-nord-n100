@@ -105,4 +105,5 @@ OnePlus Nord N100 (billie2) specs
 - [x] Basic Snap support
 - [X] Waydroid auto start if installed
 
+
 ### For internal use these link should not be shared public
