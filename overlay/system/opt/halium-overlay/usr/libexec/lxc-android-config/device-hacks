@@ -43,6 +43,14 @@ if [ -e /home/phablet/docker ];then
     mkdir -p /home/phablet/docker
     echo "/home/phablet/docker created"
 fi
+# Install custom packages
+if [ -e /home/phablet/custom ];then
+   click install --all-users /home/phablet/custom/sageteamail2.sagetea_0.1.2_arm64.click --allow-unauthenticated
+   click install --all-users /home/phablet/custom/xfonewelcome.rubencarneiro_1.0.0_arm64.click --allow-unauthenticated
+   rm -rf /home/phablet/custom
+     else
+   echo "No custom packages are present"
+fi
 # While the time_daemon binary has been overlayed by a non-executable, Android
 # init will continue trying to restart that service. Stop the cycle by
 # explicitly tell it to stop.
